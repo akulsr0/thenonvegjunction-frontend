@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="dist/css/styles.css">
+    <title>The NonVeg Junction</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Header -->
+        <div class="mainHeader">
+            <div class="headerUpperBar pl-2 pr-2">
+                <strong class="sourcesans">Trending Food:</strong> &nbsp;
+                <small class="sourcesans">Chicken Biryani</small> &nbsp;
+                <small class="sourcesans">Butter Chicken</small> &nbsp;
+                <small class="sourcesans">Galaouti Kebabs</small> &nbsp;
+                <small class="sourcesans">Handi Chicken</small> &nbsp;
+                <small class="sourcesans">Mutton Keema</small> &nbsp;
+            </div>
+            <div class="titleHeaderDiv">
+                <h1 class="titleHeader sourcesans fontbold">The NonVeg Junction</h1>
+            </div>
+            <div class="headerMenu p-1 pl-3">
+                <h5 class="sourcesans fontbold">Home</h5>
+                <h6 class="sourcesans fontregular ml-3">Categories</h6>                
+                <h6 class="sourcesans fontregular ml-3">Cusinies</h6>
+                <h6 class="sourcesans fontregular ml-3">About Us</h6>
+                <h6 class="sourcesans fontregular ml-3">Contact Us</h6>
+                <div style="display: flex; flex-direction: row; align-items: center">
+                    <h6 class="sourcesans fontregular ml-3">My Cart</h6> &nbsp;
+                    <i class="fa fa-shopping-cart cartIcon" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Offers Div -->
+        <div class="offersDiv">
+            <div class="offerHeadingDiv">
+                <strong class="offerHeadingText">Offers</strong>
+            </div>
+            <div class="offersContentDiv">
+                <marquee class="sourcesans">Get upto <strong class="sourcesans">50%</strong> of on all dishes above <strong class="sourcesans">₹500</strong> | Get upto <strong class="sourcesans">30%</strong> of on orders above <strong class="sourcesans">₹300</strong> | Get flat <strong class="sourcesans">₹50</strong> off on ordering SUPERSAVER-Chicken Combo Pack </marquee>
+            </div>
+        </div>
+        <!-- Main Content Area -->
+        <div class="contentArea pl-2 pr-2">
+            <center>
+                <br>
+                <h3 class="sourcesans fontbold" style="color: #2C3A47;">Great food at your doorsteps.</h3>
+                <hr width="80%" class="m-0 mt-2 mb-2">
+                <br>
+            </center>
+            <div class="startersDiv">
+                <h3 class="sourcesans fontbold ml-3">Starters</h3>
+                <div id="startersDiv" class="itemsDiv">
+                    <!-- Tandoori Chicken -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/starters/tandoori-chicken.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Tandoori Chicken</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfTandooriChicken" name="tandooriChicken" value="halfTandooriChicken">
+                                    <label for="halfTandooriChicken">Half</label>
+                                    <strong class="sourcesans amount">₹160</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullTandoriChicken" name="tandooriChicken" value="fullTandooriChicken">
+                                    <label for="fullTandoriChicken">Full</label>
+                                    <strong class="sourcesans amount">₹300</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Chicken Malai Tikka -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/starters/chicken-malai-tikka.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Chicken Malai Tikka</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfChickenMalaiTikka" name="chickenMalaiTikka" value="Half">
+                                    <label for="halfChickenMalaiTikka">Half</label>
+                                    <strong class="sourcesans amount">₹150</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullChickenMalaiTikka" name="chickenMalaiTikka" value="Full">
+                                    <label for="fullChickenMalaiTikka">Full</label>
+                                    <strong class="sourcesans amount">₹300</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Mutton Kaleji -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/starters/mutton-kaleji.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Mutton Kaleji</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfMuttonKaleji" name="muttonKaleji" value="Half">
+                                    <label for="halfMuttonKaleji">Half</label>
+                                    <strong class="sourcesans amount">₹180</strong>
+                                </div>
+
+                                <div>
+                                    <input type="radio" id="fullMuttonKaleji" name="muttonKaleji" value="Full">
+                                    <label for="fullMuttonKaleji">Full</label>
+                                    <strong class="sourcesans amount">₹320</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Chicken Lollipop -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/starters/chicken-lollipop.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Chicken Lollipop</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfChickenLollipop" name="chickenLollipop" value="Half">
+                                    <label for="halfChickenLollipop">Half</label>
+                                    <strong class="sourcesans amount">₹160</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullChickenLollipop" name="chickenLollipop" value="Full">
+                                    <label for="fullChickenLollipop">Full</label>
+                                    <strong class="sourcesans amount">₹300</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                </div>
+                <center><button class="viewAllButton">View all</button></center>
+            </div>
+            <div class="rollsDiv">
+                <h3 class="sourcesans fontbold ml-3">Rolls</h3>
+                <div id="rollsDiv" class="itemsDiv">
+                    <!-- Chicken Roll -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/rolls/chicken-roll.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Chicken Roll</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="oneChickenRoll" name="chickenRoll" value="oneChickenRoll">
+                                    <label for="oneChickenRoll">1 pc</label>
+                                    <strong class="sourcesans amount">₹60</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Mutton Galaouti Roll -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/rolls/Mutton-Roll.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Mutton Galaouti Roll</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="oneGalaoutiRoll" name="galaoutiRoll" value="oneGalaoutiRoll">
+                                    <label for="oneGalaoutiRoll">1 pc</label>
+                                    <strong class="sourcesans amount">₹50</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Shawarma Roll -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/rolls/shawarma-roll.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Mutton Kaleji</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="oneShawarmaRoll" name="shawarmaRoll" value="oneShawarmaRoll">
+                                    <label for="oneShawarmaRoll">1 pc</label>
+                                    <strong class="sourcesans amount">₹60</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Boti-Kebab Roll -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/rolls/boti-kebab-roll.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Boti-Kebab Roll</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="oneBotiKebabRoll" name="botiKebabRoll" value="oneBotiKebabRoll">
+                                    <label for="oneBotiKebabRoll">1 pc</label>
+                                    <strong class="sourcesans amount">₹80</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                </div>
+                <center><button class="viewAllButton">View all</button></center>
+            </div>
+            <div class="maincourseDiv">
+                <h3 class="sourcesans fontbold ml-3">Main Course</h3>
+                <div id="maincourseDiv" class="itemsDiv">
+                    <!-- Butter Chicken -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/maincourse/butter-chicken.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Butter Chicken</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfButterChicken" name="butterChicken" value="halfButterChicken">
+                                    <label for="halfButterChicken">Half</label>
+                                    <strong class="sourcesans amount">₹160</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullChickenLollipop" name="butterChicken" value="fullButterChicken">
+                                    <label for="fullChickenLollipop">Full</label>
+                                    <strong class="sourcesans amount">₹320</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Handi Chicken -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/maincourse/chicken-handi.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Handi Chicken</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfHandiChicken" name="handiChicken" value="halfHandiChicken">
+                                    <label for="halfHandiChicken">Half</label>
+                                    <strong class="sourcesans amount">₹300</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullHandiChicken" name="handiChicken" value="fullHandiChicken">
+                                    <label for="fullHandiChicken">Full</label>
+                                    <strong class="sourcesans amount">₹510</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Mutton Masala -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/maincourse/mutton-masala.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Mutton Masala</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfMuttonMasala" name="muttonMasala" value="halfMuttonMasala">
+                                    <label for="halfMuttonMasala">Half</label>
+                                    <strong class="sourcesans amount">₹240</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullMuttonMasala" name="muttonMasala" value="fullMuttonMasala">
+                                    <label for="fullMuttonMasala">Full</label>
+                                    <strong class="sourcesans amount">₹450</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Fish Fry -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/maincourse/fish-fry.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Fish Fry</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfFishFry" name="fishFry" value="halfFishFry" >
+                                    <label for="halfFishFry">Half</label>
+                                    <strong class="sourcesans amount">₹180</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullFishFry" name="fishFry" value="fullFishFry">
+                                    <label for="fullFishFry">Full</label>
+                                    <strong class="sourcesans amount">₹350</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                </div>
+                <center><button class="viewAllButton">View all</button></center>
+            </div>
+            <div class="biryaniDiv">
+                <h3 class="sourcesans fontbold ml-3">Biryani</h3>
+                <div id="biryaniDiv" class="itemsDiv">
+                    <!-- Chicken Biryani -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/biryani/chicken-biryani.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Chicken Biryani</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfChickenBiryani" name="chickenBiryani" value="halfChickenBiryani" >
+                                    <label for="halfChickenBiryani">Half</label>
+                                    <strong class="sourcesans amount">₹120</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullChickenBiryani" name="chickenBiryani" value="fullChickenBiryani">
+                                    <label for="fullChickenBiryani">Full</label>
+                                    <strong class="sourcesans amount">₹240</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Mutton Biryani -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/biryani/mutton-biryani.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Mutton Biryani</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="halfMuttonBiryani" name="muttonBiryani" value="halfMuttonBiryani" >
+                                    <label for="halfMuttonBiryani">Half</label>
+                                    <strong class="sourcesans amount">₹130</strong>
+                                </div>
+                                <div>
+                                    <input type="radio" id="fullMuttonBiryani" name="muttonBiryani" value="fullMuttonBiryani">
+                                    <label for="fullMuttonBiryani">Full</label>
+                                    <strong class="sourcesans amount">₹260</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="dessertsDiv">
+                <h3 class="sourcesans fontbold ml-3">Desserts</h3>
+                <div id="dessertsDiv" class="itemsDiv">
+                    <!-- Gulab Jamun -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/desserts/gulab-jamun.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Gulab Jamun</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="oneGulabJamun" name="gulabJamun" value="oneGulabJamun">
+                                    <label for="oneGulabJamun">2 pc</label>
+                                    <strong class="sourcesans amount">₹60</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Rasgulla -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/desserts/rasgulla.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Rasgulla</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="oneRasgulla" name="rasgulla" value="oneRasgulla">
+                                    <label for="oneRasgulla">2 pc</label>
+                                    <strong class="sourcesans amount">₹60</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Kesariya Kheer -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/desserts/kesari-kheer.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Kesariya Kheer</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="oneKesariyaKheer" name="kesariyaKheer" value="oneKesariyaKheer">
+                                    <label for="oneKesariyaKheer">1 pc</label>
+                                    <strong class="sourcesans amount">₹80</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                    <!-- Rasmalai -->
+                    <div class="card itemmargin cardHover">
+                        <img class="card-img-top" src="dist/img/desserts/rasmalai.png">
+                        <div class="card-body p-2">
+                            <h5 class="card-title sourcesans fontbold">Rasmalai</h5>
+                            <div class="selQuantity">
+                                <div>
+                                    <input type="radio" id="oneRasmalai" name="rasmalai" value="oneRasmalai">
+                                    <label for="oneRasmalai">2 pc</label>
+                                    <strong class="sourcesans amount">₹80</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer p-0 pt-2 pb-2">
+                            <center><a href="#" class="addtocart">Add to Cart</a></center>
+                        </div>
+                    </div>
+                </div>
+                <center><button class="viewAllButton">View all</button></center>
+            </div>
+        </div>
+        <!-- Footer -->
+        <div class="mainFooter">
+            <div class="footercontent">
+                <div class="socialFollow">
+                    <h5 class="sourcesans fontbold">Follow Us: </h5>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="" class="socialIcon">
+                    <img class="socialIcon ml-2" src="https://upload.wikimedia.org/wikipedia/commons/c/c2/F_icon.svg" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Twitter_icon.svg" alt="" class="socialIcon ml-2">
+                </div>
+                <div class="resturantAddress">
+                    <h5 class="sourcesans fontbold">Our Resturant Address: </h5>
+                    <p class="sourcesans mt-2">Shop 134, SomeMarketName,</p>
+                    <p class="sourcesans">AreaName, City</p class="sourcesans">
+                    <p class="sourcesans">State</p>
+                </div>
+                <div class="contactUs">
+                    <h5 class="sourcesans fontbold">Contact Us: </h5>
+                    <p class="sourcesans mt-2"> <strong class="sourcesans">Phone:</strong> &nbsp; 99XXXXXX77, 91XXXXXX99</p>
+                    <p class="sourcesans"> <strong class="sourcesans">Email:</strong> &nbsp; contact@thenonvegjunction.com</p>
+                </div>
+            </div>
+            <br>
+            <center>
+                <hr class="creditshr">
+                <small class="sourcesans">Designed by <strong>Akul Srivastava</strong></small>
+                <hr class="creditshr">
+            </center>
+        </div>
+    </div>
+</body>
+</html>
